@@ -4,7 +4,22 @@
     android:background="#ff92fff1">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-        android:text="Yo soy el fragment 2" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/mensaje2"
+            android:paddingBottom="20px"
+            android:paddingTop="20px"
+            android:text="Yo soy el fragment 2"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_frag2"
+            android:hint="Button2"/>
+    </LinearLayout>
 </FrameLayout>
